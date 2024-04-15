@@ -125,6 +125,8 @@ class LinkedList:
             popped.next=None
             self.length -= 1
         return popped.value
+    
+    
     def delete_all(self):
         self.tail.next=None
         self.head=None
